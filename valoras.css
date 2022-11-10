@@ -1,0 +1,297 @@
+
+
+
+nav{
+	display: flex;
+}
+
+	h1{
+ text-align: center;
+ color:rgb(220,20,60)
+font-size 75px;
+}
+ol.formatacao1{
+text-align: left;
+color: rgb(220,20,60);
+font-size:  25px;
+}
+body{
+	background-color: rgb(4, 8, 15);
+}
+h3.formatacao1{
+	text-align: left;
+	color: rgb(220,20,60);
+	font-size: 25px;
+}
+h1.formatacao1{
+	text-align: center;
+	color: rgb(220,20,60);
+	font-size: 50px;
+}
+a{
+	font-size: 35px;
+text-decoration-line: none;
+	color: rgb(220,20,60);
+}
+td.formatacao1{
+	text-align: left;
+	color: rgb(220,20,60);
+	font-size: 25px;
+}
+li.formatacao1{
+text-align: left;
+	color: rgb(220,20,60);
+	font-size: 25px;
+}
+p.formatacao1{
+	text-align: left;
+	color: rgb(220,20,60);
+	font-size: 25px;
+}
+img.reyna{
+	height: 560px;
+	width: 850px;
+}
+table{
+	
+	height: 50px;
+	width: 1200px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	border-spacing: 10px;
+	color: rgb(220,20,60);
+}
+td{
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	width: 250;
+	border-radius: 1px;
+	text-align: center;
+}
+tr{
+	text-align: justify;
+}
+a:link, a:visited{
+		color: rgb(220,20,60);
+		background-color: rgb(4, 8, 15);
+		font-size: 35px;
+		font-family: Times New Romans;
+}
+a:hover, a:active{
+		color: rgb(255, 255, 255);
+		background-color: rgb(4, 8, 15);
+		font-size: 37px;
+		font-family: Times New Roman;
+
+	}
+	td.t{
+		text-align: right;
+	}
+	textarea{
+		background-color: rgb(4, 8, 15);
+	}
+	form{
+		background-color: rgb(4, 8, 15);
+	}
+p.personagem{
+	color: rgb(220,20,60);
+	font-size: 25px;
+	
+}
+td.perso{
+	width: 1000px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	border-radius: 1px;
+	text-align: center;
+}
+h2.formatacao1{
+	text-align: center;
+	color: rgb(220,20,60);
+	font-size: 30px;
+}
+div.link2{
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	border-radius: 1px;
+	
+	width: 1600px;
+	background-color: rgb(4, 8, 15);
+	position: fixed ;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+}
+p.espaço{
+	word-spacing: 10px;
+}
+a.desenvolver{
+	font-size: 17px;
+	text-decoration: underline;
+	color: rgb(220,20,60);
+	
+	
+}
+div.link3{
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	border-radius: 1px;
+	
+	width: 1600px;
+	background-color: rgb(4, 8, 15);
+	position: fixed ;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+}
+h2.formatacao2{
+	text-align: left;
+	color: rgb(220,20,60);
+	font-size: 30px;
+}
+.testemaria{
+	
+	width: 250px;
+	height: 360px;
+}
+
+.testemaria .pri{
+	visibility: visible;
+	opacity: 1;
+	position: relative;
+	top:0;
+	left: 0;
+	}
+	.testemaria:hover .pri {
+		visibility: hidden;
+		opacity: 0;
+	}
+
+.testemaria .seg{
+visibility: hidden;
+opacity: 0;
+position: relative;
+top:0;
+left: 0;
+}
+.testemaria:hover .seg {
+	visibility: visible;
+	opacity: 1;
+}
+
+td.testemaria{
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	width: 500px;
+	border-radius: 1px;
+	text-align: center;
+}
+
+
+.cell{
+	position: relative;
+	margin: 0 15;
+	width: 960px;
+	height: 540px;
+	overflow: hidden;
+	border-radius: 8px;
+}
+.cell img{
+	width: 100%;
+	height: 540px;
+	border-radius: 5px;
+	object-fit: cover;
+	display: block;
+}
+.overlay{
+	position: absolute;
+	inset: 0;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	transition: .5s ease-in-out;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+h2.text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 26px;
+	color: #ffffff;
+	transform: translate( -50%, -50%);
+	text-align: center;
+	font-weight: bolder;
+}
+.cell:hover .overlay{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table.transform-img{
+  width: auto;
+  height: 360px;
+  top: 1000px;
+  border: 5px solid rgb(228, 232, 0);
+}
+
+.transform-img-td1{
+  border: 1px solid black; text-align: center; padding-right: 30px;
+}
+
+.transform-img-td2{
+  border: 1px solid black; text-align: center; 
+}
+
+#transform-img{
+  position: absolute;
+  width: 1290px;
+  height: 380px;
+  top: 1000px;
+  left: 150px;
+  display: block;
+  border: 5px solid rgb(0, 232, 50);
+}
+.transform-img1{
+  position: relative;
+  width: 290px;
+  height: 360px;
+  left: 0px;
+  border: 1px solid rgb(0, 0, 0);
+  }
+.transform-img1 .seg {
+  visibility: hidden;
+  opacity: 0;
+  position:absolute;
+  top:0;
+  left:0;
+  }
+.transform-img1:hover .seg {
+  visibility: visible;
+  opacity: 1;
+  }
