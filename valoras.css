@@ -129,20 +129,7 @@ div.link2{
 p.espaço{
 	word-spacing: 10px;
 }
-a.desenvolver, link, a:visited{
-	font-size: 17px;
-	text-decoration: underline;
-	color: rgb(220,20,60);
-	font-family: Times New Romans;
-	
-}
 
-a.desenvolver,:hover, a:active{
-	color: rgb(255, 255, 255);
-	background-color: rgb(4, 8, 15);
-	font-size: 37px;
-	font-family: Times New Roman;
-}
 div.link3{
 	border-style: solid;
 	border-width: 3px;
@@ -161,44 +148,7 @@ h2.formatacao2{
 	color: rgb(220,20,60);
 	font-size: 30px;
 }
-.testemaria{
-	
-	width: 250px;
-	height: 360px;
-}
 
-.testemaria .pri{
-	visibility: visible;
-	opacity: 1;
-	position: relative;
-	top:0;
-	left: 0;
-	}
-	.testemaria:hover .pri {
-		visibility: hidden;
-		opacity: 0;
-	}
-
-.testemaria .seg{
-visibility: hidden;
-opacity: 0;
-position: relative;
-top:0;
-left: 0;
-}
-.testemaria:hover .seg {
-	visibility: visible;
-	opacity: 1;
-}
-
-td.testemaria{
-	border-style: solid;
-	border-width: 3px;
-	border-color: white;
-	width: 500px;
-	border-radius: 1px;
-	text-align: center;
-}
 
 
 .cell{
@@ -283,3 +233,15 @@ table.transform-img{
   visibility: visible;
   opacity: 1;
   }
+  a.desenvolver,a:link, a:visited{
+	color: rgb(220,20,60);
+	background-color: rgb(4, 8, 15);
+	font-size: 35px;
+	font-family: Times New Romans;
+}
+a.desenvolver,a:hover, a:active{
+	color: rgb(255, 255, 255);
+	background-color: rgb(4, 8, 15);
+	font-size: 37px;
+	font-family: Times New Roman;
+}
