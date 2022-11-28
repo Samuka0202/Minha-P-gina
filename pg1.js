@@ -27,7 +27,7 @@ function mensagemAlerta(){
             document.getElementById("hab3").innerHTML = ("C - PÓS-CHOQUEEQUIPE uma carga de fusão. DISPARE a carga para armar um jato de ação lenta pela parede. O jato causa muito dano a todos que estiverem na área de efeito.");
             document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/1N77IYGGd74MTac47tRDo2EBTLdxfu_ep/preview' width='590' height='320'allow='autoplay'></iframe>";
             document.getElementById("hab4").innerHTML = ("X - ONDA TROVEJANTE EQUIPE uma carga sísmica. Dispare para lançar um terremoto em cascata por todo o terreno num grande cone. O terremoto estonteia e derruba todos que estiverem na área de efeito.");
-            document.getElementById("video4").innerHTML = "<iframe src='https://drive.google.com/file/d/1QfDE_oD37OFh5OfQkxAD5dh0yx0cAJr7/preview' width='590' height='320' allow='autoplay'></iframe">;
+            document.getElementById("video4").innerHTML = "<iframe src='https://drive.google.com/file/d/1QfDE_oD37OFh5OfQkxAD5dh0yx0cAJr7/preview' width='590' height='320' allow='autoplay'></iframe>";
         }
         else if(personagem == "brimstone"){
             document.getElementById("personagem").innerHTML = ("Bibliografia: Vindo diretamente dos EUA, o arsenal orbital de Brimstone garante que o esquadrão dele esteja sempre em vantagem. Sua capacidade de oferecer utilidade com precisão a distância faz dele um comandante inigualável na linha de frente.");
