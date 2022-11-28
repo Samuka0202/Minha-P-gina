@@ -129,7 +129,13 @@ div.link2{
 p.espaço{
 	word-spacing: 10px;
 }
-
+a.desenvolver{
+	font-size: 17px;
+	text-decoration: underline;
+	color: rgb(220,20,60);
+	font-family: Times New Romans;
+	
+}
 div.link3{
 	border-style: solid;
 	border-width: 3px;
@@ -233,15 +239,3 @@ table.transform-img{
   visibility: visible;
   opacity: 1;
   }
-  a.desenvolver,a:link, a:visited{
-	color: rgb(220,20,60);
-	background-color: rgb(4, 8, 15);
-	font-size: 35px;
-	font-family: Times New Romans;
-}
-a.desenvolver,a:hover, a:active{
-	color: rgb(255, 255, 255);
-	background-color: rgb(4, 8, 15);
-	font-size: 37px;
-	font-family: Times New Roman;
-}
