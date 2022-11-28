@@ -21,10 +21,13 @@ function mensagemAlerta(){
             document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt100d13bfa8286a3d/5eb7cdc11ea0c32e33b95fa2/V_AGENTS_587x900_Breach.png'>";
             document.getElementById("funcao").innerHTML = ("Função: Iniciador.");
             document.getElementById("hab1").innerHTML = ("Q - ESTOPIM, EQUIPE uma carga cegante. DISPARE a carga para armar um jato de ação rápida pela parede. A carga é detonada, cegando todos os jogadores que estiverem olhando para ela.");
+            document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/1LNIEKLPBMkhedyznosfyX3AbErMkIQlA/preview' width='590' height='320' allow='autoplay'></iframe>";
             document.getElementById("hab2").innerHTML = ("E - FALHA TECTÔNICA EQUIPE um impacto sísmico. SEGURE O DISPARO para aumentar a distância. SOLTE para iniciar o terremoto, estonteando todos os jogadores na zona e numa linha reta até a zona.");
+            document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/1FbK2nLwuXsMJ-XqGmBqt2xW2e4ZczfO5/preview' width='590' height='320' allow='autoplay'></iframe>";
             document.getElementById("hab3").innerHTML = ("C - PÓS-CHOQUEEQUIPE uma carga de fusão. DISPARE a carga para armar um jato de ação lenta pela parede. O jato causa muito dano a todos que estiverem na área de efeito.");
+            document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/1N77IYGGd74MTac47tRDo2EBTLdxfu_ep/preview' width='590' height='320'allow='autoplay'></iframe>";
             document.getElementById("hab4").innerHTML = ("X - ONDA TROVEJANTE EQUIPE uma carga sísmica. Dispare para lançar um terremoto em cascata por todo o terreno num grande cone. O terremoto estonteia e derruba todos que estiverem na área de efeito.");
-        
+            document.getElementById("video4").innerHTML = "<iframe src='https://drive.google.com/file/d/1QfDE_oD37OFh5OfQkxAD5dh0yx0cAJr7/preview' width='590' height='320' allow='autoplay'></iframe">;
         }
         else if(personagem == "brimstone"){
             document.getElementById("personagem").innerHTML = ("Bibliografia: Vindo diretamente dos EUA, o arsenal orbital de Brimstone garante que o esquadrão dele esteja sempre em vantagem. Sua capacidade de oferecer utilidade com precisão a distância faz dele um comandante inigualável na linha de frente.");
