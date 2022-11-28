@@ -129,7 +129,7 @@ div.link2{
 p.espaço{
 	word-spacing: 10px;
 }
-a.desenvolver, a:visited{
+a.desenvolver, link, a:visited{
 	font-size: 17px;
 	text-decoration: underline;
 	color: rgb(220,20,60);
