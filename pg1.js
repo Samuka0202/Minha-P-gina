@@ -99,9 +99,13 @@ function mensagemAlerta(){
         document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte5aefeb26bee12c8/60ca5aa30ece0255888d7faa/KAYO_KeyArt_587x900.png'>";
         document.getElementById("funcao").innerHTML = ("Função: Iniciador.");
         document.getElementById("hab1").innerHTML = ("Q - GRANADA/CLARÃO EQUIPE uma granada de clarão. DISPARE para jogá-la. A granada de clarão explode após um curto período, cegando qualquer um que estiver na linha de visão.");
+        document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/1zANOLTs0fr0RfCXpxFKB1BdXV1glPKPS/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E - PONTO/ZERO EQUIPE uma lâmina de supressão. DISPARE para atirá-la. A lâmina se fixa à primeira superfície que atingir e explode, suprimindo qualquer um que estiver dentro do raio da explosão..");
+        document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/1JiaSJEXp5Ype6gI2_ZLg6fyaO4pHNlQW/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab3").innerHTML = ("C - FRAG/MENTO EQUIPE um fragmento explosivo. DISPARE para lançá-lo. O fragmento se fixa ao chão e explode várias vezes, causando dano quase letal no centro de cada explosão");
+        document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/1ueu82Ke4U70fRarKpkl0BbVCmXfRNZDJ/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab4").innerHTML = ("X - ANULAR/CMD INSTANTANEAMENTE sobrecarrega com energia de Radianita polarizada que fortalece KAY/O e emite grandes pulsos energéticos a partir de onde ele estiver. Inimigos atingidos pelos pulsos são suprimidos por um curto período.");
+        document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/1wELFIKym5uN5MtsSDUqaqG-BQiph-hU1/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
     else if(personagem == "Killjoy"){
         document.getElementById("personagem").innerHTML = ("Killjoy, uma alemã genial, defende o campo de batalha facilmente usando seu arsenal de invenções. Se o dano causado por seu equipamento não der cabo dos inimigos, os efeitos negativos de seus queridos robôs dão conta do recado.");
