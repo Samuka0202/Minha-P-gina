@@ -86,9 +86,13 @@ function mensagemAlerta(){
         document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png'>";
         document.getElementById("funcao").innerHTML = ("Função: Duelista.");
         document.getElementById("hab1").innerHTML = ("Q - CORRENTE ASCENDENTE INSTANTANEAMENTE impele Jett bem alto no ar.");
+        document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/1LsZy4Dr3V5jNyQ0WJN01QktIZhSfEj8G/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E - BRISA DE IMPULSO INSTANTANEAMENTE impele Jett na direção atual de movimento dela. Se estiver parada, Jett será impelida para a frente.");
+        document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/1OmRBauHRZxhj3enkumfSDPEuoGQG319V/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab3").innerHTML = ("C - ERUPÇÃO DAS BRUMAS Lança INSTANTANEAMENTE um projétil que se expande numa breve nuvem que obscurece a visão ao bater numa superfície. SEGURE o botão da habilidade para curvar a fumaça na direção da sua mira.");
+        document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/1YuqTxRlhX5AOyQIQGX_KO9k4Ny_CJqud/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab4").innerHTML = ("X - TORMENTA DE AÇO EQUIPE um conjunto de facas altamente precisas que são recarregadas ao matar um oponente. DISPARE para lançar uma única faca contra o alvo. Use o DISPARO SECUNDÁRIO para jogar todas as facas restantes contra o alvo.");
+        document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/1hPIWKpLyaNbM6bDQ-kVZ_MntcRlCREAA/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
     else if(personagem == "Kay/o"){
         document.getElementById("personagem").innerHTML = ("KAY/O é uma máquina de guerra construída com um único propósito: neutralizar Radiantes. Ele é capaz de suprimir habilidades inimigas, comprometendo a capacidade de contra-ataque dos adversários e dando a si próprio e a seus aliados uma vantagem essencial em combate.");
