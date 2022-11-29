@@ -34,38 +34,52 @@ function mensagemAlerta(){
             document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt26fcf1b5752514ee/5eb7cdbfc1dc88298d5d3799/V_AGENTS_587x900_Brimstone.png'>";
             document.getElementById("funcao").innerHTML = ("Função: controlador.");
             document.getElementById("hab1").innerHTML = ("Q - INCENDIÁRIO EQUIPE um lançador de granadas incendiárias. DISPARE para lançar uma granada que detona no chão, gerando uma zona de fogo que causa dano aos jogadores dentro dela.");
+            document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/1HgnUqcBIEGNK4ShKTgobIzQebJ-5EDaW/preview' width='590' height='320' allow='autoplay'></iframe>";
             document.getElementById("hab2").innerHTML = ("E - FUMAÇA CELESTE EQUIPE um mapa tático. DISPARE para marcar locais onde as nuvens de fumaça de Brimstone pousarão. Use o DISPARO SECUNDÁRIO para confirmar, lançando nuvens de fumaça de longa duração que bloqueiam a visão na área selecionada.");
+            document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/14dY7s1HYFAF7_EuMkOZxEnRZjAC6WCwy/preview' width='590' height='320' allow='autoplay'></iframe>";
             document.getElementById("hab3").innerHTML = ("C - SINALIZADOR ESTIMULANTE EQUIPE um sinalizador estimulante. DISPARE para jogar o sinalizador diante de Brimstone. Ao pousar, o sinalizador criará um campo que concede Tiro Rápido aos jogadores.");
+            document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/1GkAtFaL3XmUlyZOEA6AdiwsyZe5Rf3Ie/preview' width='590' height='320' allow='autoplay'></iframe>";
             document.getElementById("hab4").innerHTML = ("X - ATAQUE ORBITAL EQUIPE um mapa tático. DISPARE para lançar um ataque prolongado de laser orbital no local selecionado, causando muito dano");
-        
+            document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/17PanzzzrML6iwf6IVUVJLrw5KWMPPUWj/preview' width='590' height='320' allow='autoplay'></iframe>";
         }
         else if(personagem == "Chamber"){
             document.getElementById("personagem").innerHTML = ("Bibliografia: em vestido e armado até os dentes, o criador de armas francês Chamber coloca os inimigos para correr com uma precisão mortal. Use e abuse do arsenal personalizado dele para segurar posições e abater inimigos de longe, criando a defesa perfeita para qualquer plano.");
             document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6f1392b30784e029/618d9da0d380f814d61f001c/WebUpdate_Chamber_KeyArt.png'>";
             document.getElementById("funcao").innerHTML = ("Função: Sentinela.");
             document.getElementById("hab1").innerHTML = ("Q - CAÇADOR DE CABEÇASATIVE para equipar uma pistola pesada. Use o MODO SECUNDÁRIO com a pistola equipada para mirar.");
+            document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/1RKQjU_NaqOwm1xp2MXQ2h57oNzzjb1-1/preview' width='590' height='320' allow='autoplay'></iframe>";
             document.getElementById("hab2").innerHTML = ("E - RENDEZVOUS POSICIONA duas âncoras de teleporte. Enquanto estiver no chão e dentro do alcance de uma das âncoras, REATIVE para teleportar rapidamente até a outra âncora. Âncoras podem ser recuperadas para serem REPOSICIONADAS.");
+            document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/1EG5rlCnNKDjlDlhpqw2mWm6SqkVZc9sv/preview' width='590' height='320' allow='autoplay'></iframe>";
             document.getElementById("hab3").innerHTML = ("C - MARCA REGISTRADA POSICIONA uma armadilha que busca por inimigos. Quando um inimigo visível entrar no alcance, a armadilha inicia uma contagem regressiva e desestabiliza o terreno ao redor, criando um campo duradouro que reduz a velocidade dos jogadores.");
+            document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/1DqRv_vFSRkuvntQ_7-0UEsn_pxZCrNam/preview' width='590' height='320' allow='autoplay'></iframe>";
             document.getElementById("hab4").innerHTML = ("X - TOUR DE FORCE ATIVE para invocar um poderoso fuzil de precisão personalizado que abate um inimigo com qualquer acerto. Abater um inimigo cria um campo duradouro que reduz a velocidade dos jogadores dentro dele.");
-        
+            document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/1aVJtKgDE64cz13jDTYqI4t28_kNoDcic/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
     else if(personagem == "cypher"){
         document.getElementById("personagem").innerHTML = ("Cypher, um vendedor de informações do Marrocos, é uma verdadeira rede de vigilância de um homem só que fica de olho em cada movimento dos inimigos. Nenhum segredo está a salvo. Nenhuma manobra passa despercebida. Cypher está sempre vigiando.");
         document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt158572ec37653cf3/5eb7cdc19df5cf37047009d1/V_AGENTS_587x900_Cypher.png'>";
         document.getElementById("funcao").innerHTML = ("Função: Sentinela.");
         document.getElementById("hab1").innerHTML = ("Q - JAULA CIBERNÉTICA INSTANTANEAMENTE joga a jaula cibernética diante de Cypher. Ative para criar uma zona que bloqueia a visão e reduz a velocidade de inimigos que passarem por ela.");
+        document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/1Y_sn5Pn9easPJNgR2X0bZzd2YEbHC3fa' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E - CÂMERA DE VIGILÂNCIA EQUIPE uma câmera de vigilância. DISPARE para colocar a câmera no local-alvo. REPITA a habilidade para controlar a visão da câmera. Enquanto controla a câmera, DISPARE para lançar um dardo marcador. O dardo revelará a localização de qualquer jogador atingido.");
+        document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/1ghLI8bN-kXldDVASUgCrIOFNN7aUjhf2/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab3").innerHTML = ("C - FIO-ARMADILHA EQUIPE um fio-armadilha. DISPARE para instalar um fio acionador oculto e destrutível no local-alvo, criando uma linha entre o local e a parede oposta. Jogadores inimigos que passarem por um fio e não destruírem o dispositivo a tempo ficarão imobilizados, revelados e estonteados depois de um breve intervalo. A habilidade pode ser recolhida para ser REPOSICIONADA.");
+        document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/1R7QPzgK11zLAxHJE8V48Ca4FXJUsmuqM/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab4").innerHTML = ("X - ASSALTO NEURAL Use INSTANTANEAMENTE num jogador inimigo morto na sua mira para revelar a localização de todos os jogadores inimigos ainda vivos.");
+        document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/1RULktQ08e29c9qUboesTm6Qe5a1O4a1n/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
     else if(personagem == "Fade"){
         document.getElementById("personagem").innerHTML = ("Fade, uma caçadora de recompensas turca, usa o poder dos pesadelos para capturar os segredos dos inimigos. Personificando o próprio terror, ela persegue os alvos e revela seus medos mais profundos para, depois, destruí-los na escuridão.");
         document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt516d37c6c84fcda0/625db737c9aa404b76ddd594/Fade_Key_Art_587x900_for_Website.png'>";
         document.getElementById("funcao").innerHTML = ("Função: iniciadora.");
         document.getElementById("hab1").innerHTML = ("Q – CLAUSURA EQUIPE um nódulo de puro temor. DISPARE para arremessá-lo. O nódulo cairá depois de um determinado tempo. REPITA a habilidade para soltá-lo antecipadamente. Esse nódulo se rompe ao impacto, enclausurando inimigos próximos. Inimigos enclausurados sofrem surdez e deterioração.");
+        document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/1qmVCm6wIBcaWJLO9O5niJr0kEq15Osm4/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E – ASSOMBRAR EQUIPE uma assombração. DISPARE para arremessá-la. Ela cairá depois de um determinado tempo. REPITA a habilidade para soltá-la antecipadamente. Essa assombração ataca ao contato, revelando inimigos em sua linha de visão e criando rastros sinistros até eles. Ela pode ser destruída pelos inimigos.");
+        document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/153E8hCBrwFuDtad_WwX2hCZT5pmF1xF7/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab3").innerHTML = ("C – ESPREITADOR EQUIPE um Espreitador. DISPARE para enviá-lo à frente. SEGURE O DISPARO para mover o Espreitador na direção da sua retícula. Ele perseguirá o primeiro rastro sinistro ou inimigo que encontrar e afetará o alvo com visão turva ao alcançá-lo.");
+        document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/1GUTYqkAgezrh46Bb5KEqKJhLx5TkLjXs/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab4").innerHTML = ("X – VÉU DA NOITE EQUIPE o poder dos pesadelos. DISPARE para liberar uma onda implacável de energia aterrorizante. Inimigos atingidos pela onda são marcados por rastros sinistros e sofrem surdez e deterioração.");
+        document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/12gFKggqL9PQuRrxrA6h0y8GVYhZRVBse/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
     else if(personagem == "Jett"){
         document.getElementById("personagem").innerHTML = ("Representando a Coreia do Sul, sua terra natal, Jett tem um estilo de luta ágil e evasivo que permite que ela assuma riscos como ninguém. Ela corre em meio a qualquer confronto, cortando os inimigos antes mesmo que eles percebam quem ou o que os atingiu.");
