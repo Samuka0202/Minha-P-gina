@@ -74,16 +74,17 @@ tr{
 	text-align: justify;
 }
 a:link, a:visited{
-		color: rgb(220,20,60);
+		color: #ffffff;
 		background-color: rgb(4, 8, 15);
 		font-size: 35px;
 		font-family: Times New Romans;
 }
 a:hover, a:active{
-		color: rgb(255, 255, 255);
-		background-color: rgb(4, 8, 15);
+		color: rgb(220,20,60);
+		background-color: rgb(16, 21, 27);
 		font-size: 37px;
 		font-family: Times New Roman;
+		border-radius: 20%;
 
 	}
 	td.t{
