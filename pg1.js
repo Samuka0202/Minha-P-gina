@@ -112,6 +112,7 @@ function mensagemAlerta(){
         document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt53405c26141beff8/5f21fda671ec397ef9bf0894/V_AGENTS_587x900_KillJoy_.png'>";
         document.getElementById("funcao").innerHTML = ("Função: Sentinela.");
         document.getElementById("hab1").innerHTML = ("Q - ROBÔ DE ALARME EQUIPE um Robô de Alarme oculto. DISPARE para ativar um robô que persegue os inimigos que entram no alcance. Ao se aproximar do alvo, o robô explode, causando dano e aplicando vulnerável. SEGURE EQUIPAR para retirar um robô ativado.");
+       document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/13JXaAqiRsiHsN7qR5sIJBbOvHINPUyRP/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E - TORRETA EQUIPE uma Torreta. DISPARE para ativar uma torreta que atira em inimigos em um cone de 180°. SEGURE EQUIPAR para retirar a torreta ativada.");
         document.getElementById("hab3").innerHTML = ("C - NANOENXAME EQUIPE uma granada Nano enxame. DISPARE para lançar a granada. Ao atingir uma superfície, a Nano enxame fica oculta. ATIVE a Nano enxame para acionar um enxame de nano robôs que causam dano.");
         document.getElementById("hab4").innerHTML = ("X - CONFINAMENTO EQUIPE o dispositivo de Confinamento. DISPARE para ativá-lo. Após um longo processo de ativação, o dispositivo detém todos os inimigos no raio de alcance. O dispositivo pode ser destruído pelos inimigos.");
