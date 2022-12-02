@@ -114,106 +114,153 @@ function mensagemAlerta(){
         document.getElementById("hab1").innerHTML = ("Q - ROBÔ DE ALARME EQUIPE um Robô de Alarme oculto. DISPARE para ativar um robô que persegue os inimigos que entram no alcance. Ao se aproximar do alvo, o robô explode, causando dano e aplicando vulnerável. SEGURE EQUIPAR para retirar um robô ativado.");
        document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/13JXaAqiRsiHsN7qR5sIJBbOvHINPUyRP/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E - TORRETA EQUIPE uma Torreta. DISPARE para ativar uma torreta que atira em inimigos em um cone de 180°. SEGURE EQUIPAR para retirar a torreta ativada.");
+        document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/1GOAFXE2vKFLbKQjj2yNGhjdKHPJS1j3E/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab3").innerHTML = ("C - NANOENXAME EQUIPE uma granada Nano enxame. DISPARE para lançar a granada. Ao atingir uma superfície, a Nano enxame fica oculta. ATIVE a Nano enxame para acionar um enxame de nano robôs que causam dano.");
+        document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/1exRX2DUUcfAaBqWp7tFErTb0x5lr-0yr/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab4").innerHTML = ("X - CONFINAMENTO EQUIPE o dispositivo de Confinamento. DISPARE para ativá-lo. Após um longo processo de ativação, o dispositivo detém todos os inimigos no raio de alcance. O dispositivo pode ser destruído pelos inimigos.");
+    document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/1AHqYnTHZgJVEXga_RE0CCe8mj_Ygxz2C/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
     else if(personagem == "Neon"){
         document.getElementById("personagem").innerHTML = ("Neon, nossa Agente filipina, avança em velocidades incríveis, descarregando surtos de radiância bioelétrica tão rapidamente quanto seu corpo consegue gerá-los. Ela corre à frente para pegar os inimigos de surpresa, abatendo-os mais rápido do que um raio.");
         document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8093ba7b5e84ed05/61d8a63ddea73a236fc56d12/Neon_KeyArt-Web.png'>";
         document.getElementById("funcao").innerHTML = ("Função: Duelista.");
         document.getElementById("hab1").innerHTML = ("Q - RICOCHETE ELÉTRICO INSTANTANEAMENTE arremessa um raio de energia que ricocheteia uma vez. Ao atingir cada superfície, o raio eletrifica o chão abaixo dele com uma explosão.");
+        document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/1Duz37jdYZl-UEqEGacnklE7ehr7fLyxN/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E - EQUIPAMENTO VOLTAICO INSTANTANEAMENTE canaliza o poder de Neon para receber velocidade aumentada. Ao atingir a carga máxima, use o MODO SECUNDÁRIO para acionar um deslize elétrico. O carregamento é redefinido a cada dois abates.");
+        document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/19c4JYZOPRyq9DKkj4H9wde8iFdKfWfxi/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab3").innerHTML = ("C - VIA EXPRESSA DISPARE duas linhas de energia no chão à frente. As linhas se estendem por uma curta distância ou até atingirem uma superfície. Elas se tornam paredes de eletricidade estática que bloqueiam a visão e causam dano aos inimigos que as atravessarem.");
+        document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/1Ej8TGJTfjZDGERD_BjK-XI5KSGD3j5IL/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab4").innerHTML = ("X - SOBRECARGA Neon libera todo o seu poder e velocidade por um curto período. DISPARE para canalizar isso em um raio elétrico mortal com alta precisão de movimento. A duração é redefinida com cada abate.");
+        document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/1y7PEMSvzIeuEx9M9rFGDaGH2_zshez8m/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
     else if(personagem == "Omen"){
         document.getElementById("personagem").innerHTML = ("Omen, uma lembrança fantasmagórica, caça nas sombras. Ele cega os inimigos, teleporta-se pelo campo e deixa a paranoia assumir o controle enquanto o adversário tenta descobrir de onde virá seu próximo ataque");
         document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt4e5af408cc7a87b5/5eb7cdc17bedc8627eff8deb/V_AGENTS_587x900_Omen.png'>";
         document.getElementById("funcao").innerHTML = ("Função: Controlador.");
         document.getElementById("hab1").innerHTML = ("Q - PARANOIA INSTANTANEAMENTE emite um projétil sombrio adiante, reduzindo brevemente o alcance de visão dos jogadores tocados. O projétil atravessa paredes.");
+        document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/1zHBzd5mVb572wo-gBJgHsWbAGoOUGod8/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E - MANTO SOMBRIO EQUIPE um orbe sombrio e veja o indicador de alcance. DISPARE para lançar o orbe no local marcado, criando uma esfera de sombra duradoura que bloqueia a visão. SEGURE O DISPARO SECUNDÁRIO enquanto mira para afastar o marcador. SEGURE a tecla de habilidade enquanto mira para aproximar o marcador.");
+        document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/1NDV_i-7dToUErVa54wAb7k0_yiFw2tx2/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab3").innerHTML = ("C - PASSOS TENEBROSOS EQUIPE uma habilidade de passos sombrios e olhe o indicador de alcance. DISPARE para começar uma breve canalização e, então, teleporte-se para o local marcado.");
+        document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/1M39bFZHY6_3YxDdgSJZBUwvFRUKu4GC7/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab4").innerHTML = ("X - SALTO DAS SOMBRAS EQUIPE um mapa tático. DISPARE para começar a se teleportar ao local selecionado. Enquanto se teleporta, Omen aparecerá como um Vulto que pode ser destruído por qualquer inimigo para cancelar o teleporte.");
+        document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/1hawxfBi984xd8Io_Daw8j6RQa9W1-4x6/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
     else if(personagem == "phoenix"){
         document.getElementById("personagem").innerHTML = ("Chegando com tudo diretamente do Reino Unido, o poder estelar de Phoenix reluz em seu estilo de luta, incendiando o campo de batalha com luz e estilo. Tendo ajuda ou não, ele entra na luta como e quando achar que deve.");
         document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf0200e1821b5b39f/5eb7cdc144bf8261a04d87f9/V_AGENTS_587x900_Phx.png'>";
         document.getElementById("funcao").innerHTML = ("Função: Duelista.");
         document.getElementById("hab1").innerHTML = ("Q - BOLA CURVA EQUIPE um orbe de chamas que avança em curva e detona pouco após o lançamento. DISPARE para curvá-lo para a esquerda, detonando e cegando qualquer jogador que vir o orbe. Use o DISPARO SECUNDÁRIO para curvá-lo para a direita.");
+        document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/1rsdduDspT3AfWFV9j1NaC2obaYtOWtBd/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E - MÃOS QUENTES EQUIPE uma bola de fogo. DISPARE para jogar a bola de fogo, que explode após um intervalo ou ao atingir o chão, criando uma zona duradoura de fogo que causa dano aos inimigos.");
+        document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/10EJSIh6d6fMcmquCuckQ1olMa7WrASi6/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab3").innerHTML = ("C - LABAREDA EQUIPE uma parede de fogo. DISPARE para criar uma linha de chamas que avança, gerando uma parede de fogo que bloqueia a visão e causa dano a jogadores que passarem por ela. SEGURE O DISPARO para curvá-la na direção da mira.");
+        document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/1hefnLLK0EiUeMxdncoyCebgi3ek3AuvE/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab4").innerHTML = ("X - RENASCIMENTO INSTANTANEAMENTE coloca um marcador na localização de Phoenix. Com a habilidade ativa, morrer ou deixar o tempo acabar encerrarão a habilidade e trarão Phoenix de volta ao local marcado com Vida completa.");
+        document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/18-3T1bPxfn-8kBEQwfH1H2mLpdh2VyQz/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
     else if(personagem == "Raze"){
         document.getElementById("personagem").innerHTML = ("Raze chega do Brasil em uma explosão de carisma e armas letais. Com seu estilo de jogo porradeiro, ela é craque em desentocar inimigos entrincheirados e limpar espaços apertados com uma bela dose de BUUUM!");
         document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6fef56a8182d0a81/5ebf2c2798f79d6925dbd6b4/V_AGENTS_587x900_ALL_Raze_2.png'>";
         document.getElementById("funcao").innerHTML = ("Função: Duelista.");
         document.getElementById("hab1").innerHTML = ("Q - CARGA DE EXPLOSIVOS INSTANTANEAMENTE joga uma Carga de Explosivos que gruda em superfícies. REUSE a habilidade depois de instalar para detonar, causando dano e movendo tudo que for atingido. Raze não sofre dano ao ser atingida pelo efeito desta habilidade, mas ainda pode sofrer dano de queda se for arremessada para longe.");
+        document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/1ADQYvOm01wsoqu7puQQbLGQIUZmYKVCG/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E - CARTUCHOS DE TINTA EQUIPE uma granada múltipla. DISPARE para jogar a granada, que causa dano e cria submunições, cada uma causando dano a qualquer um que estiver no alcance.");
+        document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/10noUflXTWU00slhTYB-tQX-aHWSIsgZg/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab3").innerHTML = ("C - BUMBA EQUIPE um Bumba. DISPARE para lançar o robô, que avança em linha reta no chão, ricocheteando nas paredes. O Bumba trava ao detectar inimigos no cone frontal e os persegue, explodindo e causando muito dano se alcançá-los.");
+        document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/1DOuNhQRjftVLaMVlb2zC1IzWKzndZ_Nv/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab4").innerHTML = ("X - ESTRAGA-PRAZERES EQUIPE um lança-mísseis. DISPARE um foguete que causa dano devastador em área ao fazer contato com qualquer coisa.");
+        document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/1eFhIVt6-7khX--Nn2FcRsBTQud5uV1EQ/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
     else if(personagem == "Reyna"){
         document.getElementById("personagem").innerHTML = ("Criada no coração do México, Reyna domina o combate individual, destacando-se a cada abate efetuado. Sua capacidade só é limitada por sua própria perícia, tornando-a bastante dependente de desempenho.");
         document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6577b1f58530e6b2/5eb7cdc121a5027d77420208/V_AGENTS_587x900_Reyna.png'>";
         document.getElementById("funcao").innerHTML = ("Função: Duelista.");
         document.getElementById("hab1").innerHTML = ("Q - DEVORAR, Inimigos abatidos por Reyna deixam Orbes de Alma que duram 3s. INSTANTANEAMENTE consome um Orbe de Alma próximo, curando-se de forma rápida por um curto período. A quantidade de Vida concedida por esta habilidade que ultrapassar 100 decairá ao longo do tempo. Se a habilidade IMPERATRIZ estiver ativa, esta habilidade será conjurada automaticamente e não consumirá o orbe.");
+        document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/114woKVwAH3DS7N-v-BWgyXBQ5VrMoEjq/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E- DISPENSAR, INSTANTANEAMENTE consome um Orbe de Alma próximo, ficando inatingível por um curto período. Também se torna invisível se a habilidade IMPERATRIZ estiver ativa");
+        document.getElementById("video2").innerHTML ="<iframe src='ttps://drive.google.com/file/d/1swDC2vvxGljRNeckwug20jko6oeaScqH/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab3").innerHTML = ("C - OLHAR VEROZ, EQUIPE um olho etéreo e destrutível. ATIVE para lançá-lo adiante a uma curta distância. O olho deixará com visão turva todos os inimigos que olharem para ele.");
+        document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/1_nIsT_llNqM7sJXJL5za6XYx8Pk-vujq/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab4").innerHTML = ("X - IMPERATRIZ, INSTANTANEAMENTE entra em estado de frenesi, aumentando de forma drástica as velocidades de disparo, equipamento e recarga de munição. Renova a duração ao fazer um abate.");
+        document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/1X2zn1SR_S_Z3yf8Sm4DU7CcxYLlzuYr1/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
     else if(personagem == "Sage"){
         document.getElementById("personagem").innerHTML = ("Como uma verdadeira fortaleza chinesa, Sage traz segurança para si mesma e para a equipe aonde quer que vá. Capaz de reviver aliados e rechaçar investidas agressivas, ela oferece um centro de calmaria em meio ao caos da batalha.");
         document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8a627ec10b57f4f2/5eb7cdc16509f3370a5a93b7/V_AGENTS_587x900_sage.png'>";
         document.getElementById("funcao").innerHTML = ("Função: Sentinela.");
         document.getElementById("hab1").innerHTML = ("Q - Orb de lentidão, Equipe e lance um orbe de lentidão. Ao pousar, o orbe cria uma área no chão e reduz a movimentação dos inimigos no perímetro afetado.");
+        document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/1qQv0WuXNFhL5xs7O21Rd7HhNWqhHgH1C/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E- Orbe curativo, Equipe e lance um orbe curativo. Mire no aliado ferido e dispare a habilidade para curá-lo. Com o disparo secundário, a agente consegue curar a si mesma.");
+        document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/137rnSwMG7OvFfLh3b5_GTCmzdRnlR99L/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab3").innerHTML = ("C - Orbe de barreira, Equipe e lance um orbe de barreira. Mire no local desejado e dispare para erguer uma barreira. Caso deseje, utilize o botão direito do mouse para girar a parede.");
+        document.getElementById("video3").innerHTML ="<iframe src='ttps://drive.google.com/file/d/1C_ojRt6uGxGLj4ro1KGjhPU8VRQT4EHE/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab4").innerHTML = ("X - Ressureição, Equipe e lance uma habilidade de ressurreição. Posicione a mira sobre um aliado morto e dispare pare iniciar o processo. Após uma canalização, o aliado reviverá.");
+        document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/1UUbzl022cvnkewe3bcokxutSiSoJg64e/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
     else if(personagem == "Skye"){
         document.getElementById("personagem").innerHTML = ("Mandando um salve direto da Austrália, Skye e sua equipe de feras desbravam territórios hostis. Com seus poderes de cura e suas criações que partem pra cima dos inimigos, qualquer equipe ficará mais forte e mais segura tendo Skye como aliada..");
         document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt302fcb2b9628c376/5f7fa6ff8db9ea0f149ece0a/V_AGENTS_587x900_ALL_Skye.png'>";
         document.getElementById("funcao").innerHTML = ("Função: Iniciadora.");
         document.getElementById("hab1").innerHTML = ("Q - PREDADOR EXPLOSIVO EQUIPE um amuleto de lobo-da-tasmânia. DISPARE para enviar e controlar esse predador. Enquanto estiver no controle, DISPARE para saltar para a frente. O lobo gera uma explosão e causa dano aos inimigos diretamente atingidos.");
+        document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/1BA1AUfoyfaDYk0GWyHBwWXqhik38gMQ3/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E - LUZ DESBRAVADORA EQUIPE um amuleto de falcão. DISPARE para enviá-lo. SEGURE O DISPARO para guiar o falcão na direção da sua mira. REPITA a habilidade enquanto ele estiver voando para transformá-lo em um feixe de luz que gera uma confirmação de hit caso um inimigo esteja dentro do alcance ou na linha de visão.");
+        document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/1uYy6iydSWdpqzqLmxrNpZFrldknhXi87/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab3").innerHTML = ("C - REFLORESCER EQUIPE um amuleto de cura. SEGURE O DISPARO para canalizar, curando aliados dentro do alcance e na sua linha de visão. Esta habilidade pode ser repetida até a reserva de cura ser esgotada. Skye não pode curar a si mesma.");
+        document.getElementById("vide3").innerHTML ="<iframe src='https://drive.google.com/file/d/1gkC6w8TEdtXAGn2R6Qkw-RdjW0CTXsfD/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab4").innerHTML = ("X - RASTREADORES EQUIPE um amuleto de rastreador. DISPARE para enviar três rastreadores que localizarão os três inimigos mais próximos. Se um rastreador alcançar um alvo, ele causará visão turva a esse inimigo");
+        document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/1neEYc_25k7hdfT2DX9GCGxedNJp9RMNr/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
     else if(personagem == "Sova"){
         document.getElementById("personagem").innerHTML = ("Nascido sob o eterno inverno das tundras russas, Sova rastreia, encontra e elimina inimigos com eficiência e precisão implacáveis. Seu arco personalizado e suas habilidades inigualáveis de reconhecimento garantem que nenhuma presa escape.");
         document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf11234f4775729b7/5ebf2c275e73766852c8d5d4/V_AGENTS_587x900_ALL_Sova_2.png'>";
         document.getElementById("funcao").innerHTML = ("Função: Iniciador.");
         document.getElementById("hab1").innerHTML = ("Q - FLECHA DE CHOQUE EQUIPE um arco com uma flecha de choque. DISPARE para lançar a flecha que explode ao impacto, causando dano aos jogadores próximos. SEGURE O DISPARO para estender o alcance do projétil. Use o DISPARO SECUNDÁRIO para adicionar até dois ricochetes à flecha.");
+        document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/1JTho4rXeDcqwFkXtk2y6yLqocnffOZfr/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E - FLECHA RASTREADORA EQUIPE um arco com uma flecha de reconhecimento. DISPARE para lançar a flecha, que é ativada mediante impacto e revela a localização de quaisquer inimigos próximos da sua linha de visão. SEGURE O DISPARO para ampliar o alcance do projétil. Use o DISPARO SECUNDÁRIO para adicionar até dois ricochetes à flecha.");
+        document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/1eavT6Ts3Ki6dg_y42aYOWRyF0CHDI3-Y/previe' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab3").innerHTML = ("C - DRONE CORUJA EQUIPE um drone coruja. DISPARE para acionar e pilotar o drone. Enquanto pilota o drone, DISPARE para atirar um dardo marcador. Dardos revelam a localização de quaisquer jogadores atingidos.");
+        document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/1_t6-55gpZRmi0oYyuC3ZhEnKqtzk6Joh/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab4").innerHTML = ("X - FÚRIA DO CAÇADOR EQUIPE um arco com três disparos de longo alcance que perfuram paredes. DISPARE para atirar um raio de energia diante de Sova, causando dano e revelando a localização dos inimigos que estiverem na linha. A habilidade pode ser REPETIDA mais duas vezes enquanto o cronômetro de habilidade estiver ativo.");
+        document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/16mU_XhKQokWLXC7I9l64XoADaLzT3NWq/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
     else if(personagem == "Viper"){
         document.getElementById("personagem").innerHTML = ("Viper, a química dos Estados Unidos, emprega uma variedade de dispositivos químicos venenosos para controlar o campo de batalha e prejudicar a visão do inimigo. Se as toxinas não matarem a presa, seus jogos mentais certamente o farão.");
         document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc825c6589eda7717/5eb7cdc6ee88132a6f6cfc25/V_AGENTS_587x900_Viper.png'>";
         document.getElementById("funcao").innerHTML = ("Função: Contoladora.");
         document.getElementById("hab1").innerHTML = ("Q - NUVEM VENENOSA EQUIPE um emissor de gás. DISPARE para jogar o emissor, que persiste até o fim da rodada. REPITA para criar uma nuvem de gás tóxico que drena combustível. A habilidade pode ser REPETIDA mais de uma vez e pode ser recolhida para ser REPOSICIONADA.");
+        document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/17r-TZTgessORp5Q7lZ8RyIKi8nGHJ4YP/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E - CORTINA TÓXICA EQUIPE um lançador de emissores de gás. DISPARE para lançar uma longa linha de emissores de gás. REPITA a habilidade para criar uma parede alta de gás tóxico que drena combustível. A habilidade pode ser REPETIDA mais de uma vez.");
+        document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/1VMg2vWQkrw8q6miOcRTIj3yv1ghp8isF/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab3").innerHTML = ("C - VENENO DE COBRA EQUIPE um lançador químico. DISPARE para lançar um cilindro que se rompe ao atingir o chão, gerando uma zona química duradoura que causa dano e reduz a velocidade dos inimigos.");
+        document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/13Ju9of24r0Cxc_zyZOgPTm7wMXELw7TX/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab4").innerHTML = ("X - POÇO PEÇONHENTO EQUIPE um borrifador químico. DISPARE para borrifar uma nuvem química em todas as direções ao redor de Viper, criando uma grande nuvem que reduz o alcance de visão e a Vida máxima dos jogadores dentro dela.");
+        document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/1xUmTKWo-XFdBZ2gFYvqbZg0GqZSFW9Gm/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
     else if(personagem == "Yoru"){
         document.getElementById("personagem").innerHTML = ("Yoru, nativo do Japão, abre fendas na realidade para infiltrar as linhas inimigas sem ser visto. Ele usa tanto artimanhas quanto táticas agressivas, e os alvos são abatidos sem saber de onde o ataque veio.");
         document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd4080f8efb365751/5ff5660bb47cdf7fc7d6c3dc/V_AGENTS_587x900_yoru.png'>";
         document.getElementById("funcao").innerHTML = ("Função: Duelista.");
         document.getElementById("hab1").innerHTML = ("Q - PONTO CEGO EQUIPE para arrancar da realidade um fragmento dimensional instável. DISPARE para lançar o fragmento, ativando um clarão que se dissipa ao atingir uma superfície sólida.");
+        document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/1l5Ccu8XRbdcAjkTY_pH4QZ3l6luz2idH/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E - PASSAGEM DIMENSIONAL EQUIPE para preparar um fluxo dimensional. DISPARE para lançar uma extremidade. Use o MODO SEC. para posicionar a outra. ATIVE para se teleportar até a extremidade lançada.");
+        document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/1cwdkR30uL7Shzxkbd9Pojikx2CSGuRNR/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab3").innerHTML = ("C - FALCATRUA EQUIPE uma granada de eco que imita passos quando ativada. DISPARE para ativá-la e propagar seu efeito. Use o MODO SEC. para posicioná-la. USE a granada inativa para propagar o som de outra.");
+        document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/1PKwg8smjQjeE9kuexTXecLFeH2LJh1Vn/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab4").innerHTML = ("X - ESPIONAGEM DIMENSIONAL EQUIPE uma máscara para olhar por entre as dimensões. DISPARE para entrar na dimensão do Yoru, onde você não poderá ser afetado nem visto pelos inimigos lá fora");
+        document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/1EAQnlPP65CLDqve0AD2jRGjUo_I-R6MF/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
     else if(personagem == "Harbor"){
         document.getElementById("personagem").innerHTML = ("Vindo do litoral indiano, Harbor entra em campo com a força da tormenta, empunhando tecnologia ancestral com domínio sobre a água. Ele libera corredeiras espumantes e ondas esmagadoras para proteger seus aliados e atacar aqueles que se opõem a ele.");
         document.getElementById("img").innerHTML = "<img src = 'https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt81e8a3e8c7beeaf3/634894a15e281916980f655b/Harbor_KeyArt-web.png'>";
         document.getElementById("funcao").innerHTML = ("Função: Controlador.");
         document.getElementById("hab1").innerHTML = ("Q - PONTO CEGO EQUIPE, para arrancar da realidade um fragmento dimensional instável. DISPARE para lançar o fragmento, ativando um clarão que se dissipa ao atingir uma superfície sólida.");
+        document.getElementById("video1").innerHTML ="<iframe src='https://drive.google.com/file/d/17n_cS77AV6DyB6vCZV-x2CfsskZjMTM0/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab2").innerHTML = ("E - ENSEADA EQUIPE, uma esfera de água defensiva. DISPARE para lançar. Use o DISPARO ALTERNATIVO para lançar por baixo. Ao atingir o solo, invoque um escudo de água que bloqueia balas");
+        document.getElementById("video2").innerHTML ="<iframe src='https://drive.google.com/file/d/1rcsLyQdvWLIt_RdE5yUqUhVnvfnaeBIO/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab3").innerHTML = ("C - CASCATA EQUIPE, uma onda de água. DISPARE para enviar a onda para frente e através de paredes. REPITA para impedir a onda de seguir em frente. Jogadores atingidos sofrem REDUÇÃO DE VELOCIDADE.");
+        document.getElementById("video3").innerHTML ="<iframe src='https://drive.google.com/file/d/16o9pQ-Td29g61s_CU0ZkjkQcOErsxm8G/preview' width='590' height='320' allow='autoplay'></iframe>";
         document.getElementById("hab4").innerHTML = ("X - ACERTO DE CONTAS, EQUIPE o poder total do seu Artefato. DISPARE para invocar um gêiser no solo. Os inimigos na área são repetidamente alvejados por ataques do gêiser. Jogadores capturados dentro de uma área de ataque sofrem CONCUSSÃO.");
+        document.getElementById("video4").innerHTML ="<iframe src='https://drive.google.com/file/d/194SujQzYOS2yr5aiPurT8K_4lE5JjT3l/preview' width='590' height='320' allow='autoplay'></iframe>";
     }
 }
